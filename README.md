@@ -1,8 +1,6 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="my website.jpg" alt="logo" width="140"  height="auto" />
-  <br/>
 
   <h3><b>Math Magicians</b></h3>
 
