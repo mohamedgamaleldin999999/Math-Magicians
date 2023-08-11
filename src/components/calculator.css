@@ -21,3 +21,11 @@
   padding: 30px;
   font-size: 30px;
 }
+
+.btn:last-child {
+  background-color: orange;
+}
+
+.zero {
+  width: 50%;
+}
