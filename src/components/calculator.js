@@ -3,6 +3,27 @@ import './calculator.css';
 import calculate from './logic/calculate';
 
 function Calculator() {
+  const [calcState, setCalcState] = useState({
+    total: null,
+    next: null,
+    operation: null,
+  });
+
+  const [displayValue, setDisplayValue] = useState('0');
+
+  const handleButtonClick = (buttonName) => {
+    const newState = calculate(calcState, buttonName);
+    setCalcState(newState);
+
+    if (newState.total !== null) {
+      setDisplayValue(newState.total);
+    } else if (newState.next !== null) {
+      setDisplayValue(newState.next);
+    } else {
+      setDisplayValue('0');
+    }
+  };
+
   return (
     <div className="calculator">
       <div className="result">0</div>
