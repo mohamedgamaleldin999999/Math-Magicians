@@ -22,7 +22,7 @@ function Calculator() {
           <button className="btn" type="button" onClick={() => handleButtonClick('AC')}>AC</button>
           <button className="btn" type="button" onClick={() => handleButtonClick('+/-')}>+/-</button>
           <button className="btn" type="button" onClick={() => handleButtonClick('%')}>%</button>
-          <button className="btn" type="button" onClick={() => handleButtonClick('+')}>+</button>
+          <button className="btn" type="button" onClick={() => handleButtonClick('÷')}>÷</button>
         </div>
         <div className="row">
           <button className="btn" type="button" onClick={() => handleButtonClick('7')}>7</button>
