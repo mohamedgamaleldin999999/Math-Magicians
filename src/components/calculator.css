@@ -1,0 +1,32 @@
+.calculator {
+  width: 500px;
+}
+
+.result {
+  width: 100%;
+  background-color: rgb(133, 128, 128);
+  text-align: right;
+  padding: 10px 0;
+  font-size: 40px;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+}
+
+.btn {
+  width: 25%;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.btn:last-child {
+  background-color: orange;
+}
+
+.zero {
+  width: 50%;
+}
