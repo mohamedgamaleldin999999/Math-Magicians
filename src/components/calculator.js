@@ -7,33 +7,33 @@ function Calculator() {
       <div className="result">0</div>
       <div className="btns">
         <div className="row">
-          <button className="btn">AC</button>
-          <button className="btn">+/-</button>
-          <button className="btn">%</button>
-          <button className="btn">+</button>
+          <button className="btn" type="button">AC</button>
+          <button className="btn" type="button">+/-</button>
+          <button className="btn" type="button">%</button>
+          <button className="btn" type="button">+</button>
         </div>
         <div className="row">
-          <button className="btn">7</button>
-          <button className="btn">8</button>
-          <button className="btn">9</button>
-          <button className="btn">*</button>
+          <button className="btn" type="button">7</button>
+          <button className="btn" type="button">8</button>
+          <button className="btn" type="button">9</button>
+          <button className="btn" type="button">*</button>
         </div>
         <div className="row">
-          <button className="btn">4</button>
-          <button className="btn">5</button>
-          <button className="btn">6</button>
-          <button className="btn">-</button>
+          <button className="btn" type="button">4</button>
+          <button className="btn" type="button">5</button>
+          <button className="btn" type="button">6</button>
+          <button className="btn" type="button">-</button>
         </div>
         <div className="row">
-          <button className="btn">1</button>
-          <button className="btn">2</button>
-          <button className="btn">3</button>
-          <button className="btn">+</button>
+          <button className="btn" type="button">1</button>
+          <button className="btn" type="button">2</button>
+          <button className="btn" type="button">3</button>
+          <button className="btn" type="button">+</button>
         </div>
         <div className="row">
-          <button className="btn zero">0</button>
-          <button className="btn">.</button>
-          <button className="btn">=</button>
+          <button className="btn zero" type="button">0</button>
+          <button className="btn" type="button">.</button>
+          <button className="btn" type="button">=</button>
         </div>
       </div>
     </div>
