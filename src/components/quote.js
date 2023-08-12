@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 
 const QuoteComponent = () => {
   const [quote, setQuote] = useState('');
@@ -8,11 +7,17 @@ const QuoteComponent = () => {
 
   useEffect(() => {
     const category = 'happiness';
-    axios.get(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
-      headers: { 'X-Api-Key': 'YOUR_API_KEY' },
+    fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
+      headers: { 'X-Api-Key': '9OLr55xbmxMTbla+M78UXw==Igl1Na18ndLHCJv2' },
     })
     .then(response => {
-      setQuote(response.data[0].quote);
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+      return response.json();
+    })
+    .then(data => {
+      setQuote(data[0].quote);
       setLoading(false);
     })
     .catch(error => {
