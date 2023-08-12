@@ -33,7 +33,8 @@ const QuoteComponent = () => {
   if (error) {
     return <div>
       Error:
-      {error.message}</div>;
+      {error.message}
+      </div>;
   }
 
   return (
