@@ -1,6 +1,6 @@
 import React from 'react';
 import Calculator from './components/calculator';
-import './App.css'; // You can create this CSS file for global styles
+import './App.css';
 
 function App() {
   return (
