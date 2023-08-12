@@ -10,20 +10,20 @@ const QuoteComponent = () => {
     fetch(`https://api.api-ninjas.com/v1/quotes?category=${category}`, {
       headers: { 'X-Api-Key': '9OLr55xbmxMTbla+M78UXw==Igl1Na18ndLHCJv2' },
     })
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Network response was not ok');
-      }
-      return response.json();
-    })
-    .then(data => {
-      setQuote(data[0].quote);
-      setLoading(false);
-    })
-    .catch(error => {
-      setError(error);
-      setLoading(false);
-    });
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setQuote(data[0].quote);
+        setLoading(false);
+      })
+      .catch(error => {
+        setError(error);
+        setLoading(false);
+      });
   }, []);
 
   if (loading) {
