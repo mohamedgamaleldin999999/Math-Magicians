@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './quote.css'
+import './quote.css';
 
 const QuoteComponent = () => {
   const [quote, setQuote] = useState('');
@@ -41,7 +41,7 @@ const QuoteComponent = () => {
   }
 
   return (
-    <div className='container'>
+    <div className="container">
       <p>{quote}</p>
     </div>
   );
