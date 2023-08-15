@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 60px;
+}
