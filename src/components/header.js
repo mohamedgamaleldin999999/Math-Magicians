@@ -1,8 +1,8 @@
 export function Header() {
   return (
-    <div>
+    <div className="header">
       <h1>Math Magitians</h1>
-      <nav>
+      <nav className="nav">
         <ul>
           <li>Home</li>
           <li>Calculator</li>
