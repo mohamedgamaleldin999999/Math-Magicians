@@ -1,9 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Calculator from './components/calculator';
 import './App.css';
 import QuoteComponent from './components/quote';
-import { Header } from './components/header';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/header';
 import Home from './components/home';
 
 function App() {

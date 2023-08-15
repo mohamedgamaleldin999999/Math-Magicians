@@ -15,8 +15,8 @@ function Calculator() {
   };
 
   return (
-    <div className='con'>
-      <h2>Let's do some math</h2>
+    <div className="con">
+      <h2>Let us do some math</h2>
       <div className="calculator">
         <div className="result">{calcState.next || calcState.total || '0'}</div>
         <div className="btns">

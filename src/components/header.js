@@ -1,7 +1,7 @@
 import './header.css';
 import { Link } from 'react-router-dom';
 
-export function Header() {
+function Header() {
   return (
     <div className="header">
       <h1>Math Magitians</h1>
@@ -15,5 +15,7 @@ export function Header() {
         </ul>
       </nav>
     </div>
-  )
-}
+  );
+};
+
+export default Header;
