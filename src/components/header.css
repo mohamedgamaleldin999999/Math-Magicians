@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+ul li a {
+  margin: 10px;
+  font-size: 20px;
+  color: orange;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  cursor: pointer;
+  color: rgb(204, 112, 0);
+}
