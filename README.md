@@ -32,7 +32,7 @@
 
 # built-with
  <a name="built-with"></a>
-Visual Studio Code using HTML, Css, and Javascript Languages
+Visual Studio Code using HTML, Css, JavaScript, and React.
 
 ### Tech Stack
  <a name="tech-stack"></a>
@@ -43,6 +43,8 @@ Visual Studio Code using HTML, Css, and Javascript Languages
   <ul>
     <li><a href="https://html.com/">HTML</a></li>
     <li><a href="https://css.com/">CSS</a><li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://react.dev/">React</a><li>
   </ul>
 </details>
 
