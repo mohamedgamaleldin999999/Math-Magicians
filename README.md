@@ -16,26 +16,26 @@
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [⭐️ Show your support](#show-your-support)
+- [🙏 Acknowledgements](#Acknowledgments)
 - [📝 License](#license)
 
-
+# about project
 # 📖 [Math-Magicians] <a name="Math-Magicians"></a>
 
 
 
 **[Math-Magicians]** is a website that serves as a showcase of my skills, achievements, and experiences to potential employers, clients, or collaborators. It allows the user to add and fetch scores from APIs.
 
-## 🛠 Built With <a name="built-with"></a>
+# built-with
+ <a name="built-with"></a>
 Visual Studio Code using HTML, Css, and Javascript Languages
 
-### Tech Stack <a name="tech-stack"></a>
+### Tech Stack
+ <a name="tech-stack"></a>
 
 <details>
 
@@ -47,12 +47,14 @@ Visual Studio Code using HTML, Css, and Javascript Languages
 </details>
 
 
-### Key Features <a name="key-features"></a>
+### Key Features
+ <a name="key-features"></a>
 - Feature 1:Responsive Design: The project involves developing a mobile-first approach, followed by a desktop version, and includes a mobile menu and details modal.
 - Feature 2:Accessibility: One of the tasks involves evaluating the accessibility of the application, which ensures that the application is usable by everyone, including people with disabilities.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started
+ <a name="getting-started"></a>
 
 > Welcome to my Leaderboard! This guide will walk you through the steps to get the project up and running on your local machine.
 
@@ -77,7 +79,8 @@ npm install
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 👥 Authors <a name="authors"></a>
+#  Authors
+ <a name="authors"></a>
 
 
 👤 **Mohamed-Gamaleldin**
@@ -88,33 +91,38 @@ npm install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+##  Future Features
+ <a name="future-features"></a>
 [Feature1] :Add Javascript
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🤝 Contributing <a name="contributing"></a>
+##  Contributing 
+<a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## ⭐️ Show your support <a name="support"></a>
+##  Show your support 
+<a name="support"></a>
 
 If you like this project, subscribe to my [Youtube Channel](https://www.youtube.com/channel/UCGFAz2PASu5cJT9aFYrI7fg)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+# Acknowledgments
+ <a name="Acknowledgments"></a>
 
 I would like to thank my Microverse learning partners: Winner, Marie and Ismail.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 📝 License <a name="license"></a>
+##  License 
+<a name="license"></a>
 
 This project is [MIT](./LICENSE.txt) licensed.
 
